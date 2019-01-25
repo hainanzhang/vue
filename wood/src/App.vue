@@ -1,9 +1,17 @@
 <template>
 <div id="app">
-	<tabs>
-		<tab v-for='item in footerlist' :info='item'>></tab>
-	</tabs>
-	<Router-view></Router-view>
+	
+	<section class="main">
+		<Router-view></Router-view>
+	</section>
+	
+	
+	
+	<footer class="footer">
+		<tabs>
+			<tab v-for='item in footerlist' :info='item' ></tab>
+		</tabs>
+	</footer>
 </div>
 </template>
 
@@ -23,27 +31,29 @@ export default {
 			footerlist:[
 				{
 					name:'首页',
-					like:'/home'
+					like:'/home',
+					tabIcon:'wap-home'
 				},
 				{
 					name:'分类',
-					like:'/classification'
+					like:'/classification',
+					tabIcon:'apps-o'
 				},
 				{
 					name:'购物车',
-					like:'/shopping-cart'
+					like:'/shopping-cart',
+					tabIcon:'shopping-cart'
 				},
 				{
 					name:'个人',
-					like:'/my'
+					like:'/my',
+					tabIcon:'manager'
 				}
 			]
 		}
 	},
     methods: {
-	
-
-
+		
     }
 }
 </script>
@@ -52,14 +62,23 @@ export default {
 html,body,#app{
 	height: 100%;
 	font-size:.12rem ;
+	width: 100%;
+	box-sizing: border-box;
 }
 
+.main{
+	padding: .47rem 0 .5rem;
+	height: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
 .footer{
 	position: absolute;
 	bottom: 0;
-	height: 50px;
+	height: 0.5rem;
 	width: 100%;
 	background: #E0E0E0;
+	font-size: .12rem;
 }
 
 </style>

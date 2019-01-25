@@ -12,8 +12,8 @@
 		display: flex;
 		width: 100%;
 		justify-content: space-around;
-		height: 50px;
+		height: 100%;
 		align-items: center;
-		background: #E1E1E1;
+		background: #eee;
 	}
 </style>
