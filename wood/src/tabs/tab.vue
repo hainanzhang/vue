@@ -18,8 +18,6 @@
 		computed:{
 			style(){
 				if(this.$route.path==this.info.like){
-					console.log(this.$route.path)
-					console.log(this.info.like)
 					return {
 						color:'#000'
 					}

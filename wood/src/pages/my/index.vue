@@ -1,10 +1,17 @@
 <template>
 	<div class="my">
-		<h1>我的</h1>
+		<frist/>
 	</div>
 </template>
 
 <script>
+	import frist from './first'
+	export default {
+		components:{
+			frist
+		}
+	}
+	
 </script>
 
 <style>

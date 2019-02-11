@@ -2,11 +2,27 @@
 	<div class="headerTow">
 		<van-icon name="arrow-left" class='headerTowIcon'/>
 		<h1>购物车</h1>
-		<span class='headerTowApplication'>编辑</span>
+		<span class='headerTowApplication' @click="btn" :bool='bool'>{{text}}</span>
 	</div>
 </template>
 
 <script>
+	export default{
+		data(){
+			return{
+				bool:true,
+				text:'编辑'
+			}
+		},
+		methods:{
+			btn:function(){
+				this.bool = !this.bool,
+				this.text= this.text =='编辑'? '完成':'编辑';
+				console.log(this.bool)
+				 this.$emit('childByValue', this.bool)
+			}
+		}
+	}
 </script>
 
 <style lang="scss">
