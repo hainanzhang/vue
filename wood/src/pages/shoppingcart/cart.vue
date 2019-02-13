@@ -116,8 +116,7 @@
 			<section class="right">
 				<strong>删除所选</strong>
 			</section>
-			
-			
+
 		</section>
 	</div>
 </template>
@@ -147,6 +146,7 @@
 		margin-bottom: .6rem;
 		height: 100%;
 		width: 100%;
+	    padding: .47rem 0 .5rem;
 		.ulOne{
 			overflow: auto;
 			height: 100%;

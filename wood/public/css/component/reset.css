@@ -1,0 +1,24 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,textarea,select{	
+	margin:0px;
+	padding:0px;
+}
+h1,h2,h3,h4,h5,h6,strong,b{
+	font-weight:normal;
+	font-size:100%;	
+}
+i,em{
+	font-style:normal;	
+}
+input{
+	outline:none;	
+}
+img{
+    display: block;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}

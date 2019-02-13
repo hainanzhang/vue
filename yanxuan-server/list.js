@@ -47,7 +47,7 @@ var list=[
 		Price:669,
 		Choice:"三色选择"
 	},{
-		sNo:No0009.
+		sNo:No0009,
 		imgUrl:"https://img.zaozuo.com/20d67a0d75859868010d1acbcfb13cbe@!small?x-oss-process=image/format,jpg/interlace,1",
 		sname:"光笼",
 		Price:669,
