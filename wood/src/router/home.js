@@ -1,6 +1,4 @@
 //这是首页的路由
-
-
 const home ={
 	path:'/home',
    	component:()=>import ('../pages/home/index.vue'),

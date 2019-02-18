@@ -9,7 +9,7 @@
 	
 	<footer class="footer">
 		<tabs>
-			<tab v-for='item in footerlist' :info='item' ></tab>
+			<tab v-for='item in footerlist' :info='item'></tab>
 		</tabs>
 	</footer>
 </div>
@@ -66,9 +66,8 @@ html,body,#app{
 	overflow: hidden;
 	box-sizing: border-box;
 }
-
 .main{
-	padding: .47rem 0 .5rem;
+	/* padding: .47rem 0 .5rem; */
 	height: 100%;
 	box-sizing: border-box;
 	overflow: auto;
