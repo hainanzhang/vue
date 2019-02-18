@@ -60,9 +60,10 @@ export default {
 
 <style >
 html,body,#app{
-	height: 100%;
+	height: 100vh;
 	font-size:.12rem ;
-	width: 100%;
+	width: 100vw;
+	overflow: hidden;
 	box-sizing: border-box;
 }
 
@@ -70,7 +71,7 @@ html,body,#app{
 	padding: .47rem 0 .5rem;
 	height: 100%;
 	box-sizing: border-box;
-	overflow: hidden;
+	overflow: auto;
 }
 .footer{
 	position: absolute;

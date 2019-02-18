@@ -11,7 +11,7 @@
 		</section>
 		<nav class="firstNav">
 			<router-link v-for='item in firstNavList' :to='item.link' class='li'>
-				<van-icon :name="item.icon"  class='icon'/>
+				<van-icon :name="item.text"  class='icon'/>
 				<span>{{item.text}}</span>
 			</router-link>
 		</nav>
@@ -27,6 +27,7 @@
 </template>
 
 <script>
+	
 	export default {
 		data(){
 			return{
@@ -83,6 +84,7 @@
 
 <style lang="scss">
 	.first{
+		box-sizing: border-box;
 		padding: .1rem;
 		.firstTop{
 			align-items: center;
@@ -133,10 +135,11 @@
 		.ss{
 			width: 100vw;
 			height: 100vh;
-			background: hotpink;
 			position: fixed;
 			top: 0;
 			left: 0;
+			z-index: 11;
+			background: #fff;
 		}
 	}
 </style>

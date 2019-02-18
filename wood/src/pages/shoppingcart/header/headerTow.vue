@@ -1,6 +1,6 @@
 <template>
 	<div class="headerTow">
-		<van-icon name="arrow-left" class='headerTowIcon'/>
+		<van-icon name="arrow-left" class='headerTowIcon' @click='Back'/>
 		<h1>购物车</h1>
 		<span class='headerTowApplication' @click="btn" :bool='bool'>{{text}}</span>
 	</div>
@@ -20,7 +20,14 @@
 				this.text= this.text =='编辑'? '完成':'编辑';
 				console.log(this.bool)
 				 this.$emit('childByValue', this.bool)
-			}
+			},
+			
+			Back:function(){
+	  			console.log('后退')
+	  			this.$router.back();
+
+	  		}
+		
 		}
 	}
 </script>

@@ -18,7 +18,7 @@ const my ={
    			component:()=>import ('../pages/my/child/other.vue')
    		},{
    			path:'/my/collection',
-   			component:() =>import('../pages/my/child/collection')
+   			component:()=>import ('../pages/my/child/collectionaa.vue')
    		},
    		{
    			path:'/my/address',
@@ -34,7 +34,7 @@ const my ={
    			component:()=>import ('../pages/my/child/setup.vue')
    		},{
    			path:'/my/about',
-   			component:()=>import ('../pages/my/child/about.vue')
+   			component:()=>import ("../pages/my/child/about1.vue")
    		}
    	]
 }

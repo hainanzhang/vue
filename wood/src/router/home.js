@@ -6,8 +6,8 @@ const home ={
    	component:()=>import ('../pages/home/index.vue'),
    	children:[
    		{
-   			path:'/home/home01',
-   			component:()=>import ('../pages/home/home01.vue')
+   			path:'/home/details/:id',
+   			component:()=>import ('../pages/home/child/details.vue')
    		},
    	]
 }

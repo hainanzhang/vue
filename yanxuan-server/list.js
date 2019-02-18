@@ -23,19 +23,19 @@ var list=[
 		Price:3999,
 		Choice:"2色选择"
 	},{
-		sNo:No0005,
+		sNo:'No0005',
 		imgUrl:"https://img.zaozuo.com/0bea06252b039306181d2f7cb724e239@!small?x-oss-process=image/format,jpg/interlace,1",
 		sname:"光笼",
 		Price:669,
 		Choice:"三色选择"
 	},{
-		sNo:No0006,
+		sNo:'No0006',
 		imgUrl:"https://img.zaozuo.com/11902f79f762246d607f5679722716ab@!small?x-oss-process=image/format,jpg/interlace,1",
 		sname:"光笼",
 		Price:669,
 		Choice:"三色选择"
 	},{
-		sNo:No0007,
+		sNo:'No0007',
 		imgUrl:"https://img.zaozuo.com/1306c655b817fad70b1bc436254973bd@!small?x-oss-process=image/format,jpg/interlace,1",
 		sname:"光笼",
 		Price:669,
